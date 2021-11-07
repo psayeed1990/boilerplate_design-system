@@ -1,0 +1,32 @@
+Arguments: 
+  /home/sayeed/.nvm/versions/node/v16.13.0/bin/node /usr/local/bin/yarn add --dev lerna
+
+PATH: 
+  /home/sayeed/.rbenv/shims:/home/sayeed/.rbenv/shims:/home/sayeed/.cargo/bin:/home/sayeed/.nvm/versions/node/v16.13.0/bin:/home/sayeed/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin:/usr/local/go/bin:/home/sayeed/work/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.18.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+
+npm manifest: 
+  {
+      "name": "@design-system/core",
+      "version": "1.0.0",
+      "main": "index.js",
+      "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
